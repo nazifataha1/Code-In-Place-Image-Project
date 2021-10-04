@@ -2,8 +2,7 @@
 File: forest_fire.py
 ----------------
 This program highlights fires in an image by identifying
-pixels who red intensity is more than INTENSITY_THRESHOLD times
-the average of the red, green, and blue values at a pixel.
+pixels who red intensity is more than the average of the red, green, and blue values at a pixel.
 Those "sufficiently red" pixels are then highlighted in the
 image and the rest of the image is turned grey, by setting the
 pixels red, green, and blue values all to be the same average
